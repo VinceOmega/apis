@@ -1,5 +1,6 @@
 <?php
 
+/*
 try{
 $elems = $dom->find('html');
 
@@ -8,3 +9,4 @@ var_dump($elems);
     var_dump($e);
 }
 
+*/
