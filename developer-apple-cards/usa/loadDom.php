@@ -1,7 +1,9 @@
 <?php
+include '..\..\php-simple-html-dom-parser\Src\Sunra\PhpSimple\HtmlDomParser.php';
+
+use Sunra\PhpSimple\HtmlDomParser;
 
 try{
-    use Sunra\PhpSimple\HtmlDomParser;
     $dom = HtmlDomParser::file_get_html( $url );
 } catch(Exception $e){
     var_dump($e);
