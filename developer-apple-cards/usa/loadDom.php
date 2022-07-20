@@ -10,6 +10,3 @@ try{
 }
 ?>
 
-<iframe src=<?=$url?>
-</iframe>
-
