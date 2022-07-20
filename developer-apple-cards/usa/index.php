@@ -1,7 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Methods: 'POST, GET, OPTIONS'");
-header('Content-Type');
+header('Access-Control-Allow-Methods: Content-Type');
 $url    =   'https://developer.apple.com/apple-pay/sandbox-testing/';
 include 'loadDom.php';
 include './amex.php';
